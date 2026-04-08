@@ -52,6 +52,8 @@
 
 body {
   margin: 0;
+  direction: rtl;
+  text-align: right;
 }
 
 h1,

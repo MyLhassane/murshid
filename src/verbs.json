@@ -1,0 +1,152 @@
+[
+  {
+    "id": "etre-pres",
+    "verb": "Être",
+    "meaning": "يكون",
+    "tense": "Présent",
+    "pattern_group": "Pillar",
+    "hints": [
+      "تلميح 1: هذا الفعل هو الأساس، يبدأ بحرف 'S' مع الضمير Je.",
+      "تلميح 2: تذكر أغنية (Je suis, tu es...)، الكلمة الأولى هي 'suis'.",
+      "تلميح 3: القاعدة: هذا فعل شاذ تماماً، التصريف هو: suis, es, est, sommes, êtes, sont."
+    ],
+    "conjugations": {
+      "je": "suis", "tu": "es", "il": "est", "nous": "sommes", "vous": "êtes", "ils": "sont"
+    }
+  },
+  {
+    "id": "avoir-pres",
+    "verb": "Avoir",
+    "meaning": "يملك",
+    "tense": "Présent",
+    "pattern_group": "Pillar",
+    "hints": [
+      "تلميح 1: مع الضمير Je، يتم دمج الفعل ليصبح حرفاً واحداً 'ai'.",
+      "تلميح 2: مع Tu يصبح 'as'، ومع Il يصبح حرفاً واحداً 'a'.",
+      "تلميح 3: انتبه للجمع، نحن نملك (Nous avons) وأنتم تملكون (Vous avez)."
+    ],
+    "conjugations": {
+      "je": "ai", "tu": "as", "il": "a", "nous": "avons", "vous": "avez", "ils": "ont"
+    }
+  },
+  {
+    "id": "aller-pres",
+    "verb": "Aller",
+    "meaning": "يذهب",
+    "tense": "Présent",
+    "pattern_group": "Motor",
+    "hints": [
+      "تلميح 1: يبدأ بحرف 'V' في المفرد (Je vais).",
+      "تلميح 2: الجذع يتغير تماماً عن المصدر، فكر في كلمة 'Va'.",
+      "تلميح 3: التصريف للمفرد هو: vais, vas, va."
+    ],
+    "conjugations": {
+      "je": "vais", "tu": "vas", "il": "va", "nous": "allons", "vous": "allez", "ils": "vont"
+    }
+  },
+  {
+    "id": "faire-pres",
+    "verb": "Faire",
+    "meaning": "يفعل / يصنع",
+    "tense": "Présent",
+    "pattern_group": "Motor",
+    "hints": [
+      "تلميح 1: ينتهي بـ 's' مع Je و Tu (fais).",
+      "تلميح 2: انتبه لضمير Vous، فهو شاذ وينتهي بـ 'tes' (faites).",
+      "تلميح 3: القاعدة: fais, fais, fait, faisons, faites, font."
+    ],
+    "conjugations": {
+      "je": "fais", "tu": "fais", "il": "fait", "nous": "faisons", "vous": "faites", "ils": "font"
+    }
+  },
+  {
+    "id": "dire-pres",
+    "verb": "Dire",
+    "meaning": "يقول",
+    "tense": "Présent",
+    "pattern_group": "Communication",
+    "hints": [
+      "تلميح 1: يشبه فعل Faire في نهاياته، يبدأ بـ 'di'.",
+      "تلميح 2: مع ضمير Vous، ينتهي بـ 'tes' (dites) تماماً مثل faites.",
+      "تلميح 3: القاعدة: dis, dis, dit, disons, dites, disent."
+    ],
+    "conjugations": {
+      "je": "dis", "tu": "dis", "il": "dit", "nous": "disons", "vous": "dites", "ils": "disent"
+    }
+  },
+  {
+    "id": "pouvoir-pres",
+    "verb": "Pouvoir",
+    "meaning": "يستطيع",
+    "tense": "Présent",
+    "pattern_group": "Modal",
+    "hints": [
+      "تلميح 1: مع Je و Tu ينتهي بحرف 'x' بدلاً من 's'.",
+      "تلميح 2: الجذع يتغير من 'pou' إلى 'peu' في المفرد.",
+      "تلميح 3: القاعدة: peux, peux, peut, pouvons, pouvez, peuvent."
+    ],
+    "conjugations": {
+      "je": "peux", "tu": "peux", "il": "peut", "nous": "pouvons", "vous": "pouvez", "ils": "peuvent"
+    }
+  },
+  {
+    "id": "vouloir-pres",
+    "verb": "Vouloir",
+    "meaning": "يريد",
+    "tense": "Présent",
+    "pattern_group": "Modal",
+    "hints": [
+      "تلميح 1: يشبه فعل Pouvoir تماماً في نهاياته (x, x, t).",
+      "تلميح 2: الجذع يصبح 'veu' في المفرد (Je veux).",
+      "تلميح 3: القاعدة: veux, veux, veut, voulons, voulez, veulent."
+    ],
+    "conjugations": {
+      "je": "veux", "tu": "veux", "il": "veut", "nous": "voulons", "vous": "voulez", "ils": "veulent"
+    }
+  },
+  {
+    "id": "savoir-pres",
+    "verb": "Savoir",
+    "meaning": "يعرف",
+    "tense": "Présent",
+    "pattern_group": "Modal",
+    "hints": [
+      "تلميح 1: الجذع يصبح 'sai' في المفرد.",
+      "تلميح 2: النهايات كلاسيكية (s, s, t) مثل: sais, sais, sait.",
+      "تلميح 3: في الجمع يعود للجذع الأصلي: savons, savez, savent."
+    ],
+    "conjugations": {
+      "je": "sais", "tu": "sais", "il": "sait", "nous": "savons", "vous": "savez", "ils": "savent"
+    }
+  },
+  {
+    "id": "venir-pres",
+    "verb": "Venir",
+    "meaning": "يأتي",
+    "tense": "Présent",
+    "pattern_group": "Motor",
+    "hints": [
+      "تلميح 1: الجذع يصبح 'vien' في المفرد (Je viens).",
+      "تلميح 2: ينتهي بـ 's, s, t' في المفرد.",
+      "تلميح 3: انتبه لضمير Ils، الحرف 'n' يتضاعف (viennent)."
+    ],
+    "conjugations": {
+      "je": "viens", "tu": "viens", "il": "vient", "nous": "venons", "vous": "venez", "ils": "viennent"
+    }
+  },
+  {
+    "id": "prendre-pres",
+    "verb": "Prendre",
+    "meaning": "يأخذ",
+    "tense": "Présent",
+    "pattern_group": "Action",
+    "hints": [
+      "تلميح 1: نحذف 're' ونضيف النهايات المعتادة.",
+      "تلميح 2: مع Il، لا نضيف حرف 't' لأن الدال 'd' موجودة أصلاً (prend).",
+      "تلميح 3: في الجمع Nous/Vous نحذف حرف الـ 'd' (prenons)."
+    ],
+    "conjugations": {
+      "je": "prends", "tu": "prends", "il": "prend", "nous": "prenons", "vous": "prenez", "ils": "prennent"
+    }
+  }
+]
