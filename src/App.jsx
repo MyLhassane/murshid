@@ -1,27 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
-// يمكنك لاحقاً استدعاء هذه البيانات من ملف verbs.json
-const VERBS_DATA = [
-  {
-    id: "etre-pres", verb: "Être", meaning: "يكون", tense: "Présent",
-    hints: [
-      "تلميح 1: هذا الفعل هو الأساس، يبدأ بحرف 'S' مع الضمير Je.",
-      "تلميح 2: تذكر أغنية (Je suis, tu es...)، الكلمة الأولى هي 'suis'.",
-      "تلميح 3: القاعدة: suis, es, est, sommes, êtes, sont."
-    ],
-    conjugations: { je: "suis", tu: "es", il: "est", nous: "sommes", vous: "êtes", ils: "sont" }
-  },
-  {
-    id: "aller-pres", verb: "Aller", meaning: "يذهب", tense: "Présent",
-    hints: [
-      "تلميح 1: يبدأ بحرف 'V' في المفرد.",
-      "تلميح 2: الجذع يتغير تماماً عن المصدر، فكر في كلمة 'Va'.",
-      "تلميح 3: التصريف للمفرد هو: vais, vas, va."
-    ],
-    conjugations: { je: "vais", tu: "vas", il: "va", nous: "allons", vous: "allez", ils: "vont" }
-  }
-  // الصق بقية الأفعال الـ 10 هنا...
-];
+import VERBS_DATA from './verbs.json';
 
 export default function App() {
   const [progress, setProgress] = useState({});
